@@ -26,7 +26,7 @@ function search($inputDirectory, $width, $outputDirectory)
     print_r("Job done.\n");
 }
 
-$exitMessage = "\nUsage: php {$argv[0]} [output directory] [image width] [output directory(optional)]\n";
+$exitMessage = "\nUsage: php {$argv[0]} [input directory] [image width] [output directory(optional)]\n";
 
 try {
     search(
